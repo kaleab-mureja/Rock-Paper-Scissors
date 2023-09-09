@@ -1,0 +1,124 @@
+.body-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.phaseOne-container{
+  position: relative
+}
+.buttons-triangle{
+  padding: 50px;
+
+}
+.btn {
+  position: absolute;
+  background-color: white;
+  border: 15px solid ;
+  border-radius: 50%;
+}
+.set {
+  border: none;
+}
+.btn:hover {
+  box-shadow: 0 0 15px white;
+  cursor: pointer;
+}
+
+.paper-btn, .paper-button{
+  top: -4.5px;
+  left: 3px;
+  border-color:hsl(230, 89%, 65%) ;
+  padding: 29.5px 31px;
+
+}
+.scissor-btn, .scissor-button{
+  left: 133px;
+  top: -4.5px;
+  border-color: hsl(40, 84%, 53%);
+  padding: 30px;
+
+}
+.rock-btn,.rock-button{
+  bottom: 16px;
+  left: 68px;
+  border-color:hsl(349, 70%, 56%);
+  padding: 35px 31.5px;
+}
+
+.reset-button{
+  position: absolute;
+  padding: 10px 30px;
+  right:-343px;
+  bottom: 10px;
+  border: 2px solid white;
+}
+
+.reset-button:hover {
+  cursor: pointer;
+  box-shadow: 0 0 15px white;
+ color: white;
+}
+.yourButton{
+  position: absolute;
+  left: 180px;
+  top: 420px;
+  background-color: white;
+  border: 25px solid ;
+  border-radius: 50%;
+}
+.homeButton{
+  position: absolute;
+  right: 180px;
+  top: 420px;
+  background-color: white;
+  border: 25px solid ;
+  border-radius: 50%;
+}
+
+.selected-paper {
+  border-color:hsl(230, 89%, 65%) ;
+  padding: 56px 60px;
+  width: 100px;
+}
+.selected-scissor{
+  border-color: hsl(40, 84%, 53%);
+  padding: 59.5px 60px;
+  width: 100px;
+  
+
+}
+.selected-rock {
+  border-color:hsl(349, 70%, 56%);
+  padding: 66px 60px;
+  width: 100px;
+}
+
+.youPicked {
+  position: absolute;
+  top: 300px;
+  left: 220px;
+}
+.homePicked {
+  position: absolute;
+  right: 200px;
+  top: 300px;
+}
+.game-result {
+  position: absolute;
+  bottom: 210px;
+  left: 515px;
+  font-size: 50px;
+}
+.play-button{
+  position: absolute;
+  font-size: 16px;
+  bottom: 200px;
+  left: 515px;
+  width: 170px;
+  background-color: white;
+  color: red;
+  font-weight: 700;
+  cursor: pointer;
+}

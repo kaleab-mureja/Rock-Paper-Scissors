@@ -1,0 +1,30 @@
+body{
+  display: flex;
+  margin: 0px;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-family: Barlow Semi Condensed;
+  font-weight: 600;
+  padding: 100px;
+}
+p{
+  margin: 0;
+}
+.container{
+  padding-top: 100px;
+  background: radial-gradient(
+    circle at center,
+    hsl(214, 47%, 23%),
+    hsl(237, 49%, 15%)
+  );
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+  width: 1200px;
+  height:700px;
+  position: relative;
+}
+
+

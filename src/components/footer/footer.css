@@ -1,0 +1,42 @@
+button {
+  border: 1px solid white;
+  color: white;
+  background-color: transparent;
+  padding: 10px 30px;
+  border-radius: 5px;
+  align-items: center;
+  position: absolute;
+  right: 50px;
+  bottom: 70px;
+}
+
+.footer-button {
+  border: 2px solid white;
+}
+.footer-button:hover{
+  cursor: pointer;
+  box-shadow: 0 0 15px white;
+  color: white;
+}
+.display-rule {
+  position: absolute;
+  top: 305px;
+  left: 400px;
+  width: 400px;
+}
+.remove-button{
+  position: absolute;
+  width: 15px;
+  height: 40px;
+  top: 270px;
+  right: 350px;
+  border: none;
+}
+.close-icon{
+  width: 50px;
+  border-radius: 50%;
+}
+.close-icon:hover{
+  box-shadow: 0 0 15px white;
+  cursor: pointer;
+}
